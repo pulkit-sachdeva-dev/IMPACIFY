@@ -1,0 +1,110 @@
+.section-title, .section-description {
+    color: black;
+}
+
+/* Additional styles for the menu page */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar stays above other content */
+    background-color: var(--white-color); /* Match site background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: black;
+}
+
+.menu-page {
+    padding-top: 12rem; /* Increased to account for fixed header height */
+}
+
+.menu-section {
+    margin-bottom: 5rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.menu-card {
+    background-color: var(--white-color);
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: var(--tran-0-3);
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-card-content {
+    padding: 2rem;
+}
+
+.menu-card-title {
+    font-size: var(--h4-font);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: 1rem;
+}
+
+.menu-card-description {
+    font-size: var(--small-font);
+    color: var(--text-color-light);
+    margin-bottom: 1.5rem;
+}
+
+.menu-card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-card-price .discount-price {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.menu-card-price .real-price {
+    font-size: var(--small-font);
+    color: var(--text-color-light);
+    text-decoration: line-through;
+}
+
+
+.header, .bx {
+    background-color: var(--white-color); /* Ensure solid background */
+    color: var(--text-color); /* Ensure text is visible */
+}
+
+.nav-link, .logo-text, .phone-number {
+    color: var(--text-color); /* Ensure link and text colors are visible */
+}
+
+h1{
+   color: #C87E4F;
+   margin-left: 22rem;
+
+}
+
+h1:hover{
+    color: #C2703D;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+    .menu-card img {
+        height: 150px;
+    }
+}

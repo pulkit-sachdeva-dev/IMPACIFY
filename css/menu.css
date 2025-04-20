@@ -80,6 +80,15 @@
     text-decoration: line-through;
 }
 
+.header, .bx {
+    background-color: var(--white-color); 
+    color: #C2703D;
+}
+
+.nav-link, .logo-text, .phone-number {
+    color: #C2703D;
+}
+
 @media screen and (max-width: 600px) {
     .menu-grid {
         grid-template-columns: 1fr;

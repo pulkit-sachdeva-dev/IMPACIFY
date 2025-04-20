@@ -102,6 +102,12 @@ h1:hover {
 }
 
 
+.footer .logo-icon,
+.footer .map-icon {
+    background-color: transparent !important;
+}
+
+
 .header.header-active .nav-link,
 .header.header-active .logo-text,
 .header.header-active .phone-number,

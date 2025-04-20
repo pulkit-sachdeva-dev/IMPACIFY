@@ -89,6 +89,19 @@
     color: #C2703D;
 }
 
+
+h1 {
+    color: #C2703D;
+    margin-left: clamp(1rem, 5vw, 10rem); 
+    font-size: clamp(2.5rem, 5vw, 4rem); 
+    text-align: center; 
+}
+
+h1:hover {
+    color: #C87E4F;
+}
+
+
 @media screen and (max-width: 600px) {
     .menu-grid {
         grid-template-columns: 1fr;

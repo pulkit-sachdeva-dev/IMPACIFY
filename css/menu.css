@@ -102,6 +102,18 @@ h1:hover {
 }
 
 
+.header.header-active .nav-link,
+.header.header-active .logo-text,
+.header.header-active .phone-number,
+.header.header-active .logo-icon,
+.header.header-active .phone-icon,
+.header.header-active .navClose-btn,
+.header.header-active .navOpen-btn,
+.header.header-active .media-icons a .bx {
+    color: #C2703D !important;
+}
+
+
 @media screen and (max-width: 600px) {
     .menu-grid {
         grid-template-columns: 1fr;

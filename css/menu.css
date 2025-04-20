@@ -10,7 +10,7 @@
     width: 100%;
     z-index: 1000; /* Ensure navbar stays above other content */
     background-color: var(--white-color); /* Match site background */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     color: black;
 }
 
@@ -78,26 +78,6 @@
     font-size: var(--small-font);
     color: var(--text-color-light);
     text-decoration: line-through;
-}
-
-
-.header, .bx {
-    background-color: var(--white-color); /* Ensure solid background */
-    color: var(--text-color); /* Ensure text is visible */
-}
-
-.nav-link, .logo-text, .phone-number {
-    color: var(--text-color); /* Ensure link and text colors are visible */
-}
-
-h1{
-   color: #C87E4F;
-   margin-left: 22rem;
-
-}
-
-h1:hover{
-    color: #C2703D;
 }
 
 @media screen and (max-width: 600px) {

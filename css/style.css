@@ -93,7 +93,7 @@ body{
 body,
 button,
 input{
-    margin-top: 1rem;
+  margin-top: 1rem;
   font-family: var(--body-font);
   font-size: var(--normal-font);
   font-weight: var(--font-regular);
